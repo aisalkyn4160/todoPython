@@ -53,9 +53,6 @@ section{
     background-color: rgb(203, 241, 203);
     margin-bottom: 20px;
 }
-.todo_item:active{
-    background-color: hotpink !important;
-}
 .todo_item.done{
     background-color: rgb(177, 177, 172);
     text-decoration: line-through;
@@ -95,3 +92,6 @@ section{
       margin: 0 5px;
       cursor: pointer;
   }
+  .todo_item_header h4 a{
+    text-decoration: none;
+}
